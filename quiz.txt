@@ -54,4 +54,31 @@ is_even(num)
 
 
 
- 3)
+ 3)def remove_duplicates(lst):
+    new_list = []
+    for item in lst:
+        if item not in new_list:
+            new_list.append(item)
+    return new_list
+
+lst = input("Enter a list of elements separated by commas: ").split(",")
+new_lst = remove_duplicates(lst)
+print("List with duplicates removed:", new_lst)
+
+
+4) def check_days_in_month(monthname):
+    thirty_days = ["April", "June", "September", "November"]
+    thirty_one_days = ["January", "March", "May", "July", "August", "October", "December"]
+    if monthname in thirty_days:
+        return f"{monthname} has 30 days."
+    elif monthname in thirty_one_days:
+        return f"{monthname} has 31 days."
+    else:
+        return f"{monthname} is not a valid month name."
+
+
+
+5) def echo_string():
+    input_string = input("Please enter a long string: ")
+    print("You entered: " + input_string)
+
