@@ -1,0 +1,27 @@
+17) b
+18) c
+19) d
+20)
+10) def my_function():
+1)print("Hello world")
+2) x = 5
+y=10
+ print(x+y)
+ 3)carname = "Volvo"
+4)q = "Hello world"
+print(len(q))
+5)False
+6) print(10*5) 50
+7) fruits=["apple" , "banana" , "cherry"]
+fruits[0]="kivi"
+8)fruits1=["apple" , "banana"]
+fruits1.append("orange")
+9)fruits2=["apple" , "banana" , "cherry"]
+print(len(fruits))
+11)#
+12)float
+13) nothing
+14) c
+
+task
+1)
