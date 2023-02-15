@@ -1,36 +1,23 @@
-# print("Hello world")
+# def factorial(n):
 #
-# x = 5
-# y=10
-# print(x+y)
+#     fact = 1
 #
-# carname = "Volvo"
+#     for i in range(1, n + 1):
+#         fact = fact * i
 #
-# q = "Hello world"
-# print(len(q))
+#     print(f"The factorial of {n} is {fact}")
 #
-# print(10==9) # False
-#
-# print(10*5)
-#
-# fruits=["apple" , "banana" , "cherry"]
-# fruits[0]="kivi"
-#
-# fruits1=["apple" , "banana"]
-#
-#
-# fruits2=["apple" , "banana" , "cherry"]
-#
-# # def my_function(): 10
-#
-#
-# x = 20.5 #float 12
+# n = int(input("Enter a number to find its factorial: "))
+# factorial(n)
 
-# i = 1 13
-# while i < 6:
-#   if i == 3:
-#     i += 1
-# print(i)
+def is_even(num):
+    if num % 2 == 0:
+        print(f"{num} is even")
+    else:
+        print(f"{num} is odd")
+
+num = int(input("Enter a number to check whether it's even or odd: "))
+is_even(num)
 
 
 
